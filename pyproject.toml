@@ -1,0 +1,9 @@
+[project]
+name = "Try zenodo api"
+description = "some api  calls"
+version = "0.1.0"
+authors = [
+    { name = "Íñigo Aréjula Aísa", email = "iarejula@unizar.es"},
+]
+dependencies = ["requests","fastapi"]
+readme = "README.md"
