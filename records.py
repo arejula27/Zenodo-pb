@@ -3,6 +3,8 @@ import json
 import requests
 import time
 
+# Day 2015-12-31 have more than 10000 records. Data will be lost
+
 HOUR_LIMIT_JSON = json.loads("{\"message\": \"2000 per 1 hour\", \"status\": \"429\"}")
 MIN_LIMIT_JSON = json.loads("{\"message\": \"60 per 1 minute\", \"status\": \"429\"}")
 ZENODO_SIZE_LIMIT=10000
